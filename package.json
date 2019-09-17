@@ -1,0 +1,7 @@
+{
+  "name": "droneio-web-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Hassen Taidirt <htaidirt@gmail.com>",
+  "license": "MIT"
+}

@@ -5,12 +5,13 @@
   "author": "Hassen Taidirt <htaidirt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha server.test.js --exit"
+    "test": "./node_modules/mocha/bin/mocha server.test.js --exit"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "mocha": "^6.2.0",
     "supertest": "^4.0.2"
   }
 }

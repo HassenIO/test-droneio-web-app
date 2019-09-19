@@ -6,6 +6,5 @@ steps:
   image: node
   commands:
   - npm install --dev
-  - npm install -g mocha
   - npm test
 

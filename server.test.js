@@ -5,6 +5,7 @@ describe('GET /', function () {
     it('respond with status 200', function (done) {
         request(app)
             .get('/')
+            .expect('Hello Drone.io!')
             .expect(200, done);
     });
 });

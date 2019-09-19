@@ -2,13 +2,10 @@ kind: pipeline
 name: default
 
 steps:
-- name: npm install
+- name: test
   image: node
   commands:
   - npm install --dev
   - npm install -g mocha
-- name: test
-  image: node
-  commands:
   - npm test
 
